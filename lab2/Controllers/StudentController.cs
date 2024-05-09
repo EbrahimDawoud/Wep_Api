@@ -73,12 +73,6 @@ namespace Day2.Controllers
                 St_Age = student.Age,
                
             };
-            //var dept = db.Departments.FirstOrDefault(a => a.Dept_Name.Contains(student.DeptName));
-            //if (dept != null)
-            //{
-            //    dept.Students.Add(newStudent);
-            //}
-
             db.Students.Add(newStudent);
             db.SaveChanges();
             return Created($"api/Student/{newStudent.St_Id}", newStudent);
