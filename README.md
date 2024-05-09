@@ -11,4 +11,3 @@ then the following endpoints are used to create, read, update and delete Departm
 - /departments/<id> => PUT
 - /departments/<id> => DELETE
 
-====================================================================================================
