@@ -104,6 +104,7 @@ namespace lab2.Controllers
             };
             db.Departments.Add(department);
             db.SaveChanges();
+            //Console.WriteLine(department);
             return Created("Dept Added", department);
             
         }

@@ -35,7 +35,8 @@ namespace Day2.Controllers
                 };
                 studentsDTO.Add(studentDTO);
             }
-            return Ok(studentsDTO) ;
+            //Console.WriteLine(studentsDTO);
+            return Ok(studentsDTO);
         }
         [HttpGet("{id}")]
         [Authorize]
